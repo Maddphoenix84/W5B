@@ -5,6 +5,15 @@
   color: rgb(11, 7, 235);
 }
 
+.footer {
+  color: rgb(11, 7, 235);
+  background-image: linear-gradient(to right, #fc5c7d, #6a82fb);
+}
+
+.footerlinks {
+  background-image: linear-gradient(to right, #fc5c7d, #6a82fb);
+}
+
 .phoenix {
   border-radius: 50%;
 }
@@ -70,17 +79,6 @@
   justify-items: center;
   background-image: linear-gradient(to right, #fc5c7d, #6a82fb);
   color: rgb(9, 248, 21);
-}
-
-.footer {
-  color: rgb(9, 248, 21);
-  background-image: linear-gradient(to right, #fc5c7d, #6a82fb);
-}
-
-.footerlinks {
-  display: grid;
-  justify-items: center;
-  background-image: linear-gradient(to right, #fc5c7d, #6a82fb);
 }
 
 /*# sourceMappingURL=nicepage.css.map */

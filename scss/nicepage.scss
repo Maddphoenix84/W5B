@@ -1,5 +1,5 @@
 @use "header";
-
+@use "footer";
 
 .phoenix {
     border-radius: 50%;
@@ -74,14 +74,3 @@
     color: rgb(9, 248, 21);
 }
 
-.footer {
-    color: rgb(9, 248, 21);
-     background-image: linear-gradient(to right, #fc5c7d, #6a82fb);;
-}
-
-.footerlinks {
-    display: grid;
-    justify-items: center;
-    background-image: linear-gradient(to right, #fc5c7d, #6a82fb);
-    
-}

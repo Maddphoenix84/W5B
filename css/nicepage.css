@@ -19,6 +19,16 @@
   .phoenix {
     border-radius: 50%;
   }
+  .imjames {
+    width: 100px;
+    transition-property: width;
+    transition-duration: 2s;
+    transition-timing-function: ease-in-out;
+  }
+  .imjames:hover {
+    color: #50f3ff;
+    width: 280px;
+  }
   .hungry {
     border-radius: 20px 20px;
   }
@@ -43,6 +53,13 @@
     justify-items: center;
     background-image: linear-gradient(to right, #fc5c7d, #6a82fb);
     color: rgb(9, 248, 21);
+    transition-property: background-image;
+    transition-duration: 2s;
+    transition-timing-function: ease-in-out;
+  }
+  .intro:hover {
+    background-image: linear-gradient(to right, #0099f7, #f11712);
+    border-radius: 20px;
   }
   .profile {
     display: grid;

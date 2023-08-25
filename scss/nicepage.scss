@@ -74,3 +74,181 @@
     color: rgb(9, 248, 21);
 }
 
+
+
+
+
+
+
+
+
+@media screen and (min-width:768px) and (max-width:1023px)
+{
+    
+    .header {
+        display: grid;
+        text-align: center;
+    }
+    
+    .hungry {
+        border-radius: 20px 20px;
+    }
+    
+    .meet-james {
+        border-radius: 50% 20px ;
+    }
+    
+    .suite  {
+        border-radius: 50%;
+    }
+    
+    .doing {
+       
+        
+        >img {
+            border-radius: 50%;
+        }
+    
+        &:hover {
+            color: red;
+        }
+    }
+    
+    .meetthisguy {
+        border-radius: 50%;
+        justify-self: start;
+    } 
+
+    .phoenix {
+    display: grid;
+    justify-self: start;
+    border-radius: 50%;
+   
+}
+   
+
+.imjames {
+    display: grid;
+    display: grid;
+     justify-self: center;
+}
+
+.para-one {
+    display: grid;
+    width: 400px;
+    height: 50px;
+}
+
+
+
+.intro {
+        background-image: linear-gradient(to right, #fc5c7d, #6a82fb);
+        color: rgb(9, 248, 21);
+        display: grid;
+    grid-template-columns: auto auto auto;
+    align-items: center;
+        }
+    
+
+
+.profile {
+    display: grid;
+    float: right;
+    background-image: linear-gradient(to right, #fc5c7d, #6a82fb);
+    color: rgb(9, 248, 21);
+}
+
+
+.acetrainer {
+    width: 350px;
+}
+
+
+.strong-two {
+    width: 300px;
+}
+
+.para-three {
+    height: 367px;
+    width: 300px;
+}
+
+.legpress {
+    justify-self: baseline;
+}
+
+.ropes {
+    justify-self: right;
+}
+
+.curl {
+    justify-self:baseline ;
+}
+
+.daddy {
+    justify-self: right;
+}
+
+.works {
+    justify-self: center;
+}
+
+.worksone {
+    display: grid;
+    justify-content: center;
+}
+
+.workspara {
+    display: grid;
+    width: 500px;
+}
+
+.doing {
+    display: grid;
+    
+    background-image: linear-gradient(to right, #fc5c7d, #6a82fb);
+    color: rgb(9, 248, 21);
+}
+
+.pics-vids {
+    display: grid;
+    
+    background-image: linear-gradient(to right, #fc5c7d, #6a82fb);
+    color: rgb(9, 248, 21);
+}
+
+.meetme {
+    display: grid;
+    
+    background-image: linear-gradient(to right, #fc5c7d, #6a82fb);
+    color: rgb(9, 248, 21);
+}
+
+
+.review {
+    display: grid;
+
+}
+
+.instatab {
+    display: grid;
+    
+}
+
+.dumb {
+    display: grid;
+    text-align: -webkit-center;
+}
+
+.instabutton {
+    display: grid;
+
+}
+
+.footer {
+    display: grid;
+    text-align: center;
+    text-decoration: underline;
+}
+
+}

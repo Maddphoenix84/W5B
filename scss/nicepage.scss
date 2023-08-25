@@ -1,0 +1,87 @@
+@use "header";
+
+
+.phoenix {
+    border-radius: 50%;
+}
+
+.hungry {
+    border-radius: 20px 20px;
+}
+
+.meet-james {
+    border-radius: 50% 20px ;
+}
+
+.suite  {
+    border-radius: 50%;
+}
+
+.doing {
+   
+    
+    >img {
+        border-radius: 50%;
+    }
+
+    &:hover {
+        color: red;
+    }
+}
+
+.meetthisguy {
+    border-radius: 50%;
+} 
+
+
+.intro {
+    display: grid;
+    grid-template-columns: auto;
+    justify-items: center;
+    background-image: linear-gradient(to right, #fc5c7d, #6a82fb);
+    color: rgb(9, 248, 21);
+}
+
+.profile {
+    display: grid;
+    grid-template-columns: auto;
+    justify-items: center;
+    background-image: linear-gradient(to right, #fc5c7d, #6a82fb);
+    color: rgb(9, 248, 21);
+}
+
+.doing {
+    display: grid;
+    grid-template-columns: auto;
+    justify-items: center;
+    background-image: linear-gradient(to right, #fc5c7d, #6a82fb);
+    color: rgb(9, 248, 21);
+}
+
+.pics-vids {
+    display: grid;
+    grid-template-columns: auto;
+    justify-items: center;
+    background-image: linear-gradient(to right, #fc5c7d, #6a82fb);
+    color: rgb(9, 248, 21);
+}
+
+.meetme {
+    display: grid;
+    grid-template-columns: auto;
+    justify-items: center;
+    background-image: linear-gradient(to right, #fc5c7d, #6a82fb);
+    color: rgb(9, 248, 21);
+}
+
+.footer {
+    color: rgb(9, 248, 21);
+     background-image: linear-gradient(to right, #fc5c7d, #6a82fb);;
+}
+
+.footerlinks {
+    display: grid;
+    justify-items: center;
+    background-image: linear-gradient(to right, #fc5c7d, #6a82fb);
+    
+}

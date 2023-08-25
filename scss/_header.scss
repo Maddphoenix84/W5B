@@ -1,0 +1,9 @@
+@import "_general.scss";
+
+.header {
+    display: grid;
+    grid-template-rows: auto;
+    background-image: linear-gradient(to right, #fc5c7d, #6a82fb);
+    color: $header-font-color;
+
+}

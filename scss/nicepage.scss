@@ -1,5 +1,12 @@
+
 @use "header";
 @use "footer";
+
+@media screen and (max-width: 767px) {
+
+.header {
+    height: 100px;
+}
 
 .phoenix {
     border-radius: 50%;
@@ -73,6 +80,13 @@
     background-image: linear-gradient(to right, #fc5c7d, #6a82fb);
     color: rgb(9, 248, 21);
 }
+
+}
+
+
+
+
+
 
 
 
@@ -250,5 +264,144 @@
     text-align: center;
     text-decoration: underline;
 }
+
+}
+
+
+
+@media screen and (min-width: 1024px) {
+
+.header {
+    display: grid;
+    font-size: -webkit-xxx-large;
+    text-align-last: center;
+}
+    .phoenix {
+        height: 500px;
+        width: 500px;
+        display: grid;
+        justify-self: center;
+    }
+    
+
+.imjames {
+    display: grid;
+    justify-self: center;
+}
+
+
+
+.main-content {
+    background-image: linear-gradient(to right, #fc5c7d, #6a82fb);
+    color: rgb(9, 248, 21);
+}
+
+.intro {
+    display: grid;
+    justify-content: center;
+}
+
+.hungry {
+    display: grid;
+    justify-self: center;
+    width: 500px;
+    height: 600px;
+}
+
+.profile {
+    display: grid;
+    justify-items: center;
+}
+
+.doing {
+    display: grid;
+    justify-items: center;
+}
+
+.whatimdoing {
+    display: grid;
+    justify-self: center;
+    &:hover {
+         color: aliceblue;
+         font-family: fantasy;
+    
+ }
+}
+
+.pics-vids {
+    display: grid;
+
+}
+
+
+
+.legpress {
+    display: grid;
+    justify-self: start;
+
+}
+
+.ropes {
+    display: grid;
+    justify-self: center;
+
+}
+.dedicated {
+    display: grid;
+    justify-self: right;
+}
+
+
+
+.curl {
+    display: grid;
+    justify-self: center;
+}
+
+
+.anytime {
+    display: grid;
+    justify-self: center;
+}
+
+.worksone {
+    display: grid;
+  
+   
+}
+
+.meetme {
+    display: grid;
+    
+}
+.meetthisguy {
+    justify-self: center;
+    height: 400px;
+    width: 300px;
+}
+
+.review {
+    display: grid;
+    width: 600px;
+    justify-self: center;
+}
+
+.steven
+{
+    display: grid;
+    justify-items: center;
+
+}
+
+.footer {
+    display: grid;
+    justify-items: center;
+}
+
+.lastp {
+    display: grid;
+    width: 600px;
+}
+
 
 }
